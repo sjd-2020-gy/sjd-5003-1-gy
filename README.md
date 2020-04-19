@@ -1,7 +1,9 @@
 # sjd-5003-1-gy
-Agents Model v1.0
+Project Title: Agents Model v1.0
 
 Author: 201388212
+
+Institution: University of Leeds
 
 Course: Master of Science - GIS
 
