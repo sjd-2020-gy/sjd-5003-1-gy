@@ -116,7 +116,7 @@ class FrontEnd():
         menu_bar.add_cascade(label='Defaults', menu=menu_item_2)
         menu_bar.add_cascade(label='Help', menu=menu_item_3)
        
-        menu_item_1.add_command(label='Run', command=self.run, underline=0)
+        menu_item_1.add_command(label='Run...', command=self.run, underline=0)
         menu_item_1.add_command(label='Reset', command=self.clear, underline=2)
         menu_item_1.add_command(label='Exit', command=self.finish, underline=1)
         menu_item_2.add_command(label='Create...', state=tk.DISABLED)
@@ -289,7 +289,7 @@ class FrontEnd():
              ' --dispwolves ' +  self.disp_wolf_summary.get(),   # check button
              ' --dispparams ' +  self.disp_params.get()          # check button
             ])
-        print(call_string)
+
         self.b1.focus_set()
         self.t1.configure(state=tk.NORMAL)  
         self.t1.delete(1.0, tk.END)
