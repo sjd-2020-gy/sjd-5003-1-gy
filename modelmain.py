@@ -39,8 +39,8 @@ import sys
 import csv
 import random
 import argparse
-import matplotlib.lines as mlines
-import matplotlib.pyplot as mplot
+import matplotlib.lines as lns
+import matplotlib.pyplot as plt
 import agentframework
 import requests
 import bs4
@@ -51,7 +51,7 @@ import bs4
 #----------------------------------------------------------
 arg_name = ['--agents', '--defaults', '--moves', '--distance', '--wolves', 
             '--plotstart', '--dispagents', '--dispwolves', '--dispparams']
-arg_dflt = ['105', 'N', '100', '20', '5', 'N', 'N', 'N', 'N']
+arg_dflt = ['10', 'N', '100', '20', '5', 'N', 'N', 'N', 'N']
 arg_dest = ['num_of_agents', 
             'agent_defaults',
             'num_of_iterations', 
@@ -116,7 +116,6 @@ arg_err_count = 0
 # Note: If a string argument contain anything other than Y or N, then the 
 # logic will treat it as a N.
 for i in list([0, 2, 3, 4]): 
-    
     if arg_value[i].isnumeric() is True:
         arg_value[i] = int(arg_value[i])
             
@@ -163,7 +162,7 @@ try:
                 f.close() 
                 
                 sys.exit('Inconsistent number of cells encountered in row #' +
-                         str(row_num+1))
+                         str(row_num+1) + ' of input raster file.')
                 
         # Convert each element from float to integer
         environment.append(list(map(lambda row_elem: int(row_elem), row)))
@@ -171,7 +170,8 @@ try:
 except ValueError:
     f.close() 
 
-    sys.exit('Non numerical cell value encountered in row #' + str(row_num+2))
+    sys.exit('Non numerical cell value encountered in row #' + 
+             str(row_num+2) + ' of input raster file.')
 
 f.close() 
 #----------------------------------------------------------
@@ -199,7 +199,6 @@ else:
 # Create agents
 #----------------------------------------------------------
 for i in range(args.num_of_agents):
-
     # create the next Agent instance
     if i+1 > len(td_ys):
         agents.append(agentframework.Agent(environment, agents))
@@ -220,7 +219,6 @@ for i in range(args.num_of_agents):
 
 # All wolves will start as a pack at the same location
 for i in range(args.num_in_wolf_pack):
-    
     # create the next Wolf instance
     wolf_pack.append(agentframework.Wolf(environment, wolf_pack))
 
@@ -234,31 +232,31 @@ for i in range(args.num_in_wolf_pack):
 # Now that we have the raster size, set the boundary 
 # limits and other mapping attributes
 #----------------------------------------------------------
-mplot.ylim(0, agents[0].y_boundary)
-mplot.xlim(0, agents[0].x_boundary)
-mplot.minorticks_on()
-mplot.copper()
-mplot.title('Agent Movements\nby Student 201388212')
+plt.ylim(0, agents[0].y_boundary)
+plt.xlim(0, agents[0].x_boundary)
+plt.minorticks_on()
+plt.copper()
+plt.title('Agent Movements\nby Student 201388212')
 
-cross = mlines.Line2D([], [], color='Black', marker='x', markersize=5, 
-                      linestyle='None')
-circle = mlines.Line2D([], [], color='Black', marker='o', markersize=5, 
-                       linestyle='None')
-delta = mlines.Line2D([], [], color='Black', marker='v', markersize=5, 
-                      linestyle='None')
-diamond = mlines.Line2D([], [], color='Black', marker='D', markersize=5, 
-                        linestyle='None')
+cross = lns.Line2D([], [], color='Black', marker='x', markersize=5, 
+                   linestyle='None')
+circle = lns.Line2D([], [], color='Black', marker='o', markersize=5, 
+                    linestyle='None')
+delta = lns.Line2D([], [], color='Black', marker='v', markersize=5, 
+                   linestyle='None')
+diamond = lns.Line2D([], [], color='Black', marker='D', markersize=5, 
+                     linestyle='None')
 
-agent_legend = mplot.legend([cross, circle, delta, diamond],
+agent_legend = plt.legend([cross, circle, delta, diamond],
                           ['Agent Start', 'Agent End', 
                            'Wolf Start', 'Wolf End'], 
                           loc = 'center left', 
                           bbox_to_anchor = (-0.5, 0.5))
-
-mplot.fig = mplot.figure(1)
-mplot.fig.set_size_inches(10, 6)
-mplot.fig.subplots_adjust(top=0.9)
-mplot.fig.savefig('legend_test.png', bbox_extra_artists=(agent_legend))
+    
+plt.fig = plt.figure(1)
+plt.fig.set_size_inches(10, 6)
+plt.fig.subplots_adjust(top=0.9)
+plt.fig.savefig('legend_test.png', bbox_extra_artists=(agent_legend))
 
 
 #----------------------------------------------------------
@@ -270,7 +268,7 @@ mplot.fig.savefig('legend_test.png', bbox_extra_artists=(agent_legend))
 #----------------------------------------------------------
 if args.plot_start == 'Y':
     for agent in agents:
-        mplot.scatter(agent.x, agent.y, marker='x', color=agent.colour)
+        plt.scatter(agent.x, agent.y, marker='x', color=agent.colour)
         
         if args.display_agents == 'Y':
             print('Start -', agent) 
@@ -278,7 +276,7 @@ if args.plot_start == 'Y':
     for wolf in wolf_pack:
         # Only need to plot once as the wolves start as a pack
         if wolf.wolf_num == 1:
-            mplot.scatter(wolf.x, wolf.y, marker='v', color='white')
+            plt.scatter(wolf.x, wolf.y, marker='v', color='white')
         
         if args.display_wolves == 'Y':
             print('Start -',  wolf) 
@@ -288,14 +286,12 @@ if args.plot_start == 'Y':
 # Move the agents and wolves (j times each)
 #----------------------------------------------------------
 for j in range(args.num_of_iterations):
-
     if args.num_of_agents > num_of_agents_killed:
         # Randomly shuffle the Agents before next iteration of moves
         random.shuffle(agents)
         random.shuffle(wolf_pack)
     
         for agent in agents: 
-
             if agent.alive == 'Y':
                 # Use agent.agent_num as index as the agents_move, agents_eat
                 # and agents_share lists were not randomly shuffled.
@@ -309,7 +305,6 @@ for j in range(args.num_of_iterations):
                 # Interact with neighbours if there is more than 1 Agent
                 if args.num_of_agents > 1:
                     agents_share[agent.agent_num-1](args.neighbourhood)
-
             
         num_of_agents_killed = 0
 
@@ -336,8 +331,7 @@ for j in range(args.num_of_iterations):
 # location
 #----------------------------------------------------------
 for agent in agents:
-
-    mplot.scatter(agent.x, agent.y, marker='o', color=agent.colour)
+    plt.scatter(agent.x, agent.y, marker='o', color=agent.colour)
         
     if args.display_agents == 'Y':
         print('Finish -', agent) 
@@ -347,8 +341,7 @@ for agent in agents:
 # Plot each Wolf finishing location with a white diamond
 #----------------------------------------------------------
 for wolf in wolf_pack:
-
-    mplot.scatter(wolf.x, wolf.y, marker='D', color='white')
+    plt.scatter(wolf.x, wolf.y, marker='D', color='white')
         
     if args.display_wolves == 'Y':
         print('Finish -', wolf) 
@@ -357,9 +350,9 @@ for wolf in wolf_pack:
 #----------------------------------------------------------
 # Display finalised environment and plotting
 #----------------------------------------------------------
-mplot.imshow(environment)
-mplot.colorbar()
-mplot.show()
+plt.imshow(environment)
+plt.colorbar()
+plt.show()
 
 
 #----------------------------------------------------------
@@ -377,7 +370,6 @@ output2 = csv.writer(f2, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
 output3 = csv.writer(f3, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
 
 for row in environment: 
-
     # Round as integer (to match input) finalised cells and output
     output1.writerow(list(map(lambda row_elem: round(row_elem), row)))
 
