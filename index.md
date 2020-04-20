@@ -1,6 +1,9 @@
 # GEOG5003M - Assignment 1 (201388212)
+---
+Submission of Python Code, test documentation and test output files for Assignment 1 due 1 May 2020.  
 
-Programming for Spatial Analysts: Core Skills
+Code demonstrates Python programming skills for spatial analysis that includes:
+* Input 
 
 
 
@@ -22,7 +25,7 @@ Copy all .py files (3) to folder of choice.
 
 
 ### Run Instructions
-----------------  
+---
 ##### With GUI
 At command prompt, enter:
 
@@ -48,7 +51,7 @@ with any or all of the following optional arguments:
 
 *Any other value will be treat as if a N
 
-
+---
 ###### Submission Details 
 Date: 20 April 2020  
 Student Id: 201388212  
