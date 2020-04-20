@@ -55,7 +55,7 @@ with any or all of the following optional arguments:
 
 
 ---
-###### Author Details 
+##### Author Details 
 Name: To be advised after marking  
 Student Id: 201388212  
 Course: Master of Science - Geographical Information Science  
@@ -63,5 +63,5 @@ Unit: GEOG5003M - Programming for Geographical Information Analysis (36393)
 Published Date: 20 April 2020  
 
 ---
-###### License Details 
-URL: //https://sjd-2020-gy.github.io/sjd-5003-1-gy/license/
+##### License Details 
+sjd-2020-gy/sjd-5003-1-gy is licensed under the MIT License.
