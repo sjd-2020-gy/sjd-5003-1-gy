@@ -1,5 +1,5 @@
 ---
-title: GEOG5003 Assignment 1 - 201388212
+title: GEOG5003 Assignment 1 (201388212)
 ---
 
 # GEOG5003M - Assignment 1
@@ -25,7 +25,7 @@ out3.txt
 Copy all .py files (3) to folder of choice.
 
 
-### Run Instructions (with GUI)
+### Run Instructions
 ----------------  
 ##### With GUI
 From command prompt, enter:
