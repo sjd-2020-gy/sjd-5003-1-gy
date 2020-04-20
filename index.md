@@ -10,19 +10,18 @@ Programming for Spatial Analysts: Core Skills
 
 ### Contents of Repository
 ------------------
-#### Python Files
+##### Python Files
 modelhome.py  
 modelmain.py  
 agentframework.py  
   
-#### Test Documents and Output Files    
+##### Test Documents and Output Files    
 Test Cases.docx  
 out1.txt  
 out2.txt  
 out3.txt  
 
-### Execution Preparation
---------------------
+##### Execution Preparation
 Copy all .py files (3) to folder of choice.
 
 
