@@ -34,17 +34,17 @@ Copy all .py files (3) to folder of choice.
 ##### With GUI
 At command prompt, enter:
 
-&emsp; ***python modelhome.py***  
+&emsp;&emsp;***python modelhome.py***  
 
 ##### Without GUI
 At command prompt, enter:
 
-> ***python modelmain.py***  
+&emsp;&emsp;***python modelmain.py***  
 
 with any or all of the following optional arguments:  
 
 | --- | --- |  
-| --agents n | where n = Number of Agents (numeric) |  
+| &en;&en;agents n | where n = Number of Agents (numeric) |  
 | --defaults x | where x = Use default Agent start locations (Y/N*) |  
 | --moves n | where n = Number of Agent & Wolf moves (numeric) |  
 | --distance n | where n = Distance considered to be a neighbour (numeric) |  
