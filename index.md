@@ -5,7 +5,7 @@ title: GEOG5003 Assignment 1 - 201388212
 # GEOG5003M - Assignment 1
 
 ## Programming for Spatial Analysts: Core Skills
-An overview of **what** your project does/is about goes here
+
 
 
 ### Contents of Repository
@@ -18,6 +18,27 @@ Test Cases.docx
 out1.txt  
 out2.txt  
 out3.txt  
+
+### Execution Preparation
+--------------------
+Copy all .py files (3) to folder of choice.
+
+
+### Run Instructions (with GUI)
+----------------  
+From command prompt, enter:
+
+python modelhome.py
+
+
+### Run Instructions (without GUI)
+----------------
+From command prompt, enter:
+
+python modelmain.py  
+
+
+
 
 ##### 
 Student Id: 201388212  
