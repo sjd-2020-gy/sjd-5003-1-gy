@@ -38,15 +38,15 @@ From command prompt, enter:
 python modelmain.py  
 
 with any or all of the following optional arguments
---agents           Number of Agents (numeric)  
---defaults         Use default Agent start locations (Y/N)  
---moves            Number of Agent & Wolf moves (numeric)  
---distance         Distance considered to be a neighbour (numeric)  
---wolves           Number of wolves in Wolf Pack (numeric)  
---plotstart        Show starting location of Agents & Wolf Pack (Y/N)  
---dispagents       Display Agent summary data (Y/N)  
---dispwolves       Display Wolf summary data (Y/N)  
---dispparams       Display Parameter Data (Y/N)  
+|--agents           |Number of Agents (numeric)  |  
+|--defaults         |Use default Agent start locations (Y/N)  |  
+|--moves            |Number of Agent & Wolf moves (numeric)  |  
+|--distance         |Distance considered to be a neighbour (numeric)  |  
+|--wolves           |Number of wolves in Wolf Pack (numeric)  |  
+|--plotstart        |Show starting location of Agents & Wolf Pack (Y/N)  |  
+|--dispagents       |Display Agent summary data (Y/N)  |  
+|--dispwolves       |Display Wolf summary data (Y/N)  |  
+|--dispparams       |Display Parameter Data (Y/N)  |  
 
 
 
