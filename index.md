@@ -10,7 +10,7 @@ An overview of **what** your project does/is about goes here
 
 ### Contents of Repository
 ------------------
-modelhome.py \n
+modelhome.py  
 modelmain.py
 agentframework.py
 
