@@ -63,4 +63,4 @@ Published Date: 20 April 2020
 
 ---
 ###### License Details 
-URL: //https://sjd-2020-gy.github.io/sjd-5003-1-gy/
+URL: //https://sjd-2020-gy.github.io/sjd-5003-1-gy/license/
