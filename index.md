@@ -13,9 +13,9 @@ Programming for Spatial Analysts: Core Skills
   
 ##### Test Documents and Output Files    
 * Test Cases.docx  
-* out1.txt  
-* out2.txt  
-* out3.txt  
+* out1.txt (Environment data)  
+* out2.txt (Agent Store data)
+* out3.txt (Wolf Kill data)
 
 ##### Execution Preparation
 Copy all .py files (3) to folder of choice.
@@ -49,7 +49,7 @@ with any or all of the following optional arguments:
 *Any other value will be treat as if a N
 
 
-#### Submission Details 
+###### Submission Details 
 Date: 20 April 2020
 Student Id: 201388212  
 Course: Master of Science - Geographical Information Science  
