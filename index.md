@@ -39,7 +39,7 @@ python modelmain.py
 
 with any or all of the following optional arguments  
 
-| Argumentment | Description |  
+| Argument | Description |  
 | --- | --- |  
 | --agents | Number of Agents (numeric) |  
 | --defaults | Use default Agent start locations (Y/N) |  
