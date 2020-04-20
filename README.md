@@ -40,7 +40,7 @@ At command prompt, enter:
 with any or all of the following optional arguments:  
 
 | --- | --- |  
-| ***&#x2010;&#x2010;agents n*** | where n = Number of Agents (numeric) |  
+| --agents n***       | where n = Number of Agents (numeric) |  
 | ***&#x2010;&#x2010;defaults x*** | where x = Use default Agent start locations (Y/N*) |  
 | ***&#x2010;&#x2010;moves n*** | where n = Number of Agent & Wolf moves (numeric) |  
 | ***&#x2010;&#x2010;distance n*** | where n = Distance considered to be a neighbour (numeric) |  
@@ -55,11 +55,11 @@ with any or all of the following optional arguments:
 
 ---
 ###### Author Details 
-Name: To be advised after marking
-Student Id: 201388212 
+Name: To be advised after marking  
+Student Id: 201388212  
 Course: Master of Science - Geographical Information Science  
 Unit: GEOG5003M - Programming for Geographical Information Analysis (36393)  
-Published Date: 20 April 2020
+Published Date: 20 April 2020  
 
 ---
 ###### License Details 
