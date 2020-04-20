@@ -1,8 +1,5 @@
----
-title: GEOG5003 Assignment 1 201388212
----
-
-# GEOG5003M - Assignment 1
+# University of Leeds
+# GEOG5003M - Assignment 1 (201388212)
 
 Programming for Spatial Analysts: Core Skills
 
