@@ -39,7 +39,7 @@ At command prompt, enter:
 ##### Without GUI
 At command prompt, enter:
 
-<&emsp>python modelmain.py  
+<em>python modelmain.py  
 
 with any or all of the following optional arguments:  
 
