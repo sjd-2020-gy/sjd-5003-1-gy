@@ -1,6 +1,9 @@
-# sjd-5003-1-gy
-# Project Title
+
+# GEOG5003M - Assignment 1
 An overview of **what** your project does/is about goes here
+
+## Author
+Student Id: 201388212
  
 ### Motivation :rocket:
 ------------------
