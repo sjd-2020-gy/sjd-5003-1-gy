@@ -51,7 +51,7 @@ with any or all of the following optional arguments
 | --dispwolves | Display Wolf summary data (Y/N*) |  
 | --dispparams | Display Parameter Data (Y/N*) |  
 
-* Any other value will be treat as if a N
+*Any other value will be treat as if a N
 
 
 ####  
