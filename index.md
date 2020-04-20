@@ -45,7 +45,7 @@ At command prompt, enter:
 with any or all of the following optional arguments:  
 
 | --- | --- |  
-| &#002D;&#002D;agents n | where n = Number of Agents (numeric) |  
+| &#x2012;&#x2012;agents n | where n = Number of Agents (numeric) |  
 | --defaults x | where x = Use default Agent start locations (Y/N*) |  
 | --moves n | where n = Number of Agent & Wolf moves (numeric) |  
 | --distance n | where n = Distance considered to be a neighbour (numeric) |  
