@@ -8,9 +8,16 @@ title: GEOG5003 Assignment 1 - 201388212
 An overview of **what** your project does/is about goes here
 
 
-### Motivation :rocket:
+### Contents of Repository
 ------------------
-A short description of the reason you made this project - **why** it exists.
+modelhome.py
+modelmain.py
+agentframework.py
+
+Test Cases.docx
+out1.txt
+out2.txt
+out3.txt
 
 ##### 
 Student Id: 201388212
