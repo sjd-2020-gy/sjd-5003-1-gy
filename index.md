@@ -10,7 +10,7 @@ Programming for Spatial Analysts: Core Skills
 
 ### Contents of Repository
 ------------------
-#### Python File
+#### Python Files
 modelhome.py  
 modelmain.py  
 agentframework.py  
