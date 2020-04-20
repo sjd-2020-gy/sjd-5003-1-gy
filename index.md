@@ -6,9 +6,9 @@ Code demonstrates Python programming skills for spatial analysis that includes:
 * Input 
 
 
-
-### Contents of Repository
 ---
+### Contents of Repository
+
 ##### Python Files
 * modelhome.py  
 * modelmain.py  
@@ -24,8 +24,9 @@ Code demonstrates Python programming skills for spatial analysis that includes:
 Copy all .py files (3) to folder of choice.
 
 
-### Run Instructions
 ---
+### Run Instructions
+
 ##### With GUI
 At command prompt, enter:
 
@@ -50,6 +51,7 @@ with any or all of the following optional arguments:
 | --dispparams x | where x = Display Parameter Data (Y/N*) |  
 
 *Any other value will be treat as if a N
+
 
 ---
 ###### Submission Details 
