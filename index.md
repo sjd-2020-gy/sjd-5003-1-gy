@@ -34,12 +34,12 @@ Copy all .py files (3) to folder of choice.
 ##### With GUI
 At command prompt, enter:
 
-&emsppython modelhome.py
+&emsp python modelhome.py
 
 ##### Without GUI
 At command prompt, enter:
 
-&emsppython modelmain.py  
+&emsp python modelmain.py  
 
 with any or all of the following optional arguments:  
 
