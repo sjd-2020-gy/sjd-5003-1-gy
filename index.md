@@ -9,7 +9,7 @@ Programming for Spatial Analysts: Core Skills
 
 
 ### Contents of Repository
-------------------
+---
 ##### Python Files
 modelhome.py  
 modelmain.py  
@@ -28,12 +28,12 @@ Copy all .py files (3) to folder of choice.
 ### Run Instructions
 ----------------  
 ##### With GUI
-From command prompt, enter:
+At command prompt, enter:
 
 python modelhome.py
 
 ##### Without GUI
-From command prompt, enter:
+At command prompt, enter:
 
 python modelmain.py  
 
