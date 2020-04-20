@@ -34,12 +34,12 @@ Copy all .py files (3) to folder of choice.
 ##### With GUI
 At command prompt, enter:
 
-    **python modelhome.py**
+   **python modelhome.py**
 
 ##### Without GUI
 At command prompt, enter:
 
-    **python modelmain.py**  
+   **python modelmain.py**  
 
 with any or all of the following optional arguments:  
 
