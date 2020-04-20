@@ -37,7 +37,7 @@ From command prompt, enter:
 
 python modelmain.py  
 
-with any or all of the following optional arguments  
+with any or all of the following optional arguments:  
 
 | --- | --- |  
 | --agents | Number of Agents (numeric) |  
