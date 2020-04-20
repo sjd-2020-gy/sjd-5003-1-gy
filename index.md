@@ -27,13 +27,12 @@ Copy all .py files (3) to folder of choice.
 
 ### Run Instructions (with GUI)
 ----------------  
+##### With GUI
 From command prompt, enter:
 
 python modelhome.py
 
-
-### Run Instructions (without GUI)
-----------------
+##### With GUI
 From command prompt, enter:
 
 python modelmain.py  
