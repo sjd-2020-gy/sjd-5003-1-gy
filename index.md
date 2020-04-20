@@ -2,8 +2,12 @@
 ---
 Submission of Python Code, test documentation and test output files for Assignment 1 due 1 May 2020.  
 
-Code demonstrates Python programming skills for spatial analysis that includes:
-* Input 
+Code demonstrates Python programming skills for spatial analysis that includes but not limited to:
+* CSV I/O
+* Multiple Classes
+* Command line initiation with argument parsing
+* GUI front-end with argument parsing
+* Method overriding
 
 
 ---
