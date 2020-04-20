@@ -32,7 +32,7 @@ At command prompt, enter:
 
 python modelhome.py
 
-##### Without GUI
+##### Without GUIx
 At command prompt, enter:
 
 python modelmain.py  
