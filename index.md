@@ -1,5 +1,5 @@
 ---
-title: GEOG5003 Assignment 1 (201388212)
+title: GEOG5003 Assignment 1 201388212
 ---
 
 # GEOG5003M - Assignment 1
