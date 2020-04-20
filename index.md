@@ -38,8 +38,8 @@ From command prompt, enter:
 python modelmain.py  
 
 with any or all of the following optional arguments  
-| Argumentment | Description |
-| --- | --- |
+| Argumentment | Description |  
+| --- | --- |  
 |--agents |Number of Agents (numeric) |  
 |--defaults |Use default Agent start locations (Y/N) |  
 |--moves |Number of Agent & Wolf moves (numeric) |  
