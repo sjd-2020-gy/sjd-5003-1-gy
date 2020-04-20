@@ -4,16 +4,18 @@ title: GEOG5003 Assignment 1 - 201388212
 
 # GEOG5003M - Assignment 1
 
-## Programming for Spatial Analysts: Core Skills
+Programming for Spatial Analysts: Core Skills
 
 
 
 ### Contents of Repository
 ------------------
+#### Python File
 modelhome.py  
 modelmain.py  
 agentframework.py  
   
+#### Test Documents and Output Files    
 Test Cases.docx  
 out1.txt  
 out2.txt  
