@@ -36,6 +36,7 @@ At command prompt, enter:
 
 &emsp;&emsp;***python modelhome.py***  
 
+
 ##### Without GUI
 At command prompt, enter:
 
