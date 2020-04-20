@@ -1,15 +1,8 @@
 # sjd-5003-1-gy
-Project Title: Agents Model v1.0
-
-Author: 201388212
-
-Institution: University of Leeds
-
-Course: Master of Science - GIS
-
-Unit: GEOG5003
-
-Assignment: 1
-
-Date: 20 April 2020
+# Project Title
+An overview of **what** your project does/is about goes here
+ 
+### Motivation :rocket:
+------------------
+A short description of the reason you made this project - **why** it exists.
 
