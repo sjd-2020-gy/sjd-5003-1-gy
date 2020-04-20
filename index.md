@@ -46,14 +46,14 @@ with any or all of the following optional arguments:
 
 | --- | --- |  
 | &#x2010;&#x2010;agents n | where n = Number of Agents (numeric) |  
-| --defaults x | where x = Use default Agent start locations (Y/N*) |  
-| --moves n | where n = Number of Agent & Wolf moves (numeric) |  
-| --distance n | where n = Distance considered to be a neighbour (numeric) |  
-| --wolves n | where n = Number of wolves in Wolf Pack (numeric) |  
-| --plotstart x | where x = Show starting location of Agents & Wolf Pack (Y/N*) |  
-| --dispagents x | where x = Display Agent summary data (Y/N*) |  
-| --dispwolves x | where x = Display Wolf summary data (Y/N*) |  
-| --dispparams x | where x = Display Parameter Data (Y/N*) |  
+| &#x2010;&#x2010;defaults x | where x = Use default Agent start locations (Y/N*) |  
+| &#x2010;&#x2010;moves n | where n = Number of Agent & Wolf moves (numeric) |  
+| &#x2010;&#x2010;distance n | where n = Distance considered to be a neighbour (numeric) |  
+| &#x2010;&#x2010;wolves n | where n = Number of wolves in Wolf Pack (numeric) |  
+| &#x2010;&#x2010;plotstart x | where x = Show starting location of Agents & Wolf Pack (Y/N*) |  
+| &#x2010;&#x2010;dispagents x | where x = Display Agent summary data (Y/N*) |  
+| &#x2010;&#x2010;dispwolves x | where x = Display Wolf summary data (Y/N*) |  
+| &#x2010;&#x2010;dispparams x | where x = Display Parameter Data (Y/N*) |  
 
 *Any other value will be treat as if a N
 
