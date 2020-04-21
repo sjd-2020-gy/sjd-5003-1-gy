@@ -171,7 +171,7 @@ except ValueError:
     f.close() 
 
     sys.exit('Non numerical cell value encountered in row #' + 
-             str(row_num+2) + ' of input raster file.')
+             str(row_num+1) + ' of input raster file.')
 
 f.close() 
 #----------------------------------------------------------
