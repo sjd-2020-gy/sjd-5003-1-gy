@@ -86,7 +86,6 @@ class FrontEnd():
         # Fields for Radio and Check buttons
         self.plot_start = tk.StringVar()
         self.agent_defaults = tk.StringVar()
-        self.disp_params = tk.StringVar()
         self.disp_agent_summary = tk.StringVar()
         self.disp_wolf_summary = tk.StringVar()
         self.disp_params = tk.StringVar()
@@ -94,7 +93,7 @@ class FrontEnd():
         # Other general field before we start contructing the layout
         menu_bar = tk.Menu(self.home)
         self.home.config(menu=menu_bar)
-        self.home.geometry('950x600')
+        self.home.geometry('950x700')
         self.home.wm_title('Agents - Student 201388212')
         
         #-------------------------------------------------

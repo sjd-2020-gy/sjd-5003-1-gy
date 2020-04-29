@@ -154,15 +154,15 @@ f = open('in.txt', newline='')
 reader = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
 
 try:
-    for row_num, row in enumerate(reader): 
+    for row in reader: 
 
-        if row_num > 0:
+        if reader.line_num > 1:
             # Test if the number of cell is the same as previous row
-            if len(row) != len(environment[row_num-1]):
+            if len(row) != len(environment[reader.line_num-2]):
                 f.close() 
-                
+
                 sys.exit('Inconsistent number of cells encountered in row #' +
-                         str(row_num+1) + ' of input raster file.')
+                         str(reader.line_num) + ' of input raster file.')
                 
         # Convert each element from float to integer
         environment.append(list(map(lambda row_elem: int(row_elem), row)))
@@ -171,7 +171,8 @@ except ValueError:
     f.close() 
 
     sys.exit('Non numerical cell value encountered in row #' + 
-             str(row_num+2) + ' of input raster file.')
+             str(reader.line_num) + ' of input raster file.')
+
 
 f.close() 
 #----------------------------------------------------------
@@ -351,7 +352,7 @@ for wolf in wolf_pack:
 # Display finalised environment and plotting
 #----------------------------------------------------------
 plt.imshow(environment)
-plt.colorbar()
+plt.colorbar().set_label('Elevation (m)')
 plt.show()
 
 

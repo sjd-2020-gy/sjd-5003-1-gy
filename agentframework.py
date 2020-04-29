@@ -332,5 +332,3 @@ class Wolf():
     def kills(self,val):
         '''Set the Wolf kill value'''
         self._kill = val
-            
-    
